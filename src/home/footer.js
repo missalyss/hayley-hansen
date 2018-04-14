@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 
-class Button extends Component {
+class Footer extends Component {
   render() {
     return (
       <div className="btn">
@@ -12,4 +12,4 @@ class Button extends Component {
   }
 }
 
-export default Button;
+export default Footer;

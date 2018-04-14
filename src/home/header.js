@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import '../App.css';
+import Button from './button';
+import Image from './image';
+import portrait from '../images/portrait.jpg';
 
-class Button extends Component {
+class Header extends Component {
   render() {
     return (
-      <div className="btn">
-        <button type="tel">480-382-7552</button>
-      </div>
+      <header>
+        <h1 className="App-title">Hayley Hansen</h1>
+        <Image source={ portrait } alternative="Hayley Hansen portrait" />
+        <Button label="480-382-7552" buttonType="tel"/>
+      </header>
     );
   }
 }
 
-export default Button;
+export default Header;
