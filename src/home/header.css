@@ -1,8 +1,8 @@
 root: {
-  --textColor: #fffffa;
+  --textColor: #fffff8;
   --paddingColor: #d8948c;
   --paddingXyz: 24px;
-  --borderStuff: 2px solid #fffffa;
+  --borderStuff: 2px solid #fffff8;
 }
 
 
@@ -15,13 +15,12 @@ root: {
 }
 
 .initialView {
-  color: #fffffa;
-  background-color: #d8948c;
+  color: #fffff8;
+  background-color: #de9e86;
   margin: 32px;
   padding: 20px;
-  border: 1px solid #fffffa;
+  border: 1px solid #fffff8;
   opacity: 80%;
-  border-radius: 10px;
 }
 
 .title {

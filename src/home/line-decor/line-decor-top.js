@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './line-decor.css';
-import Linies from '../../images/method-draw-image1.svg'
-
+import linesElite from '../../images/diff-cream.png'
 class LineDecorTop extends Component {
   render() {
     return (
-      <image src='../../images/lines-elite.png' />
+      <img className='lineDecorEverywhere' src={linesElite} alt='Decorative lines' aria-hidden='true' />
     );
   }
 }
