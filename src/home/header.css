@@ -1,0 +1,34 @@
+root: {
+  --textColor: #fffffa;
+  --paddingColor: #d8948c;
+  --paddingXyz: 24px;
+  --borderStuff: 2px solid #fffffa;
+}
+
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initialView {
+  color: #fffffa;
+  background-color: #d8948c;
+  margin: 32px;
+  padding: 20px;
+  border: 1px solid #fffffa;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: autumn-in-november;
+  font-size: 40px;
+}
+
+.motto {
+  font-size: 20px;
+}

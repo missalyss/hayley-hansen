@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import Button from './button';
 import Image from './image';
-import portrait from '../images/portrait.jpg';
+import LineDecorTop from './line-decor/line-decor-top'
+import './header.css'
 
 class Header extends Component {
   render() {
     return (
-      <header>
-        <h1 className="App-title">Hayley Hansen</h1>
-        <Image source={ portrait } alternative="Hayley Hansen portrait" />
-        <Button label="480-382-7552" buttonType="tel"/>
+      <header className="header">
+      <LineDecorTop />
+        <div className="initialView">
+          <h1 className="title">Hayley Hansen</h1>
+          <h2 className="motto">Counseling and healing for all who suffer with trauma</h2>
+        </div>
       </header>
     );
   }
