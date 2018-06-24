@@ -8,11 +8,14 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-      <LineDecorTop />
+        <LineDecorTop />
+        <br />
         <div className="initialView">
           <h1 className="title">Hayley Hansen</h1>
           <h2 className="motto">Counseling and healing for all who suffer with trauma</h2>
         </div>
+        <br />
+        <LineDecorTop />
       </header>
     );
   }

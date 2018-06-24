@@ -8,8 +8,7 @@ class App extends Component {
       <React.Fragment>
         <HamburgerBar />
         <Header />
-        <div className="App-intro"> </div>
-        <Footer />
+        // <Footer />
       </React.Fragment>
     );
   }

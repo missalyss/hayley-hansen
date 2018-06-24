@@ -3,3 +3,26 @@
   width: 100%;
   position: fixed;
 }
+
+.lineContainer {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  margin: 30px;
+}
+
+.allLines {
+  background-color: #fffff8;
+
+}
+
+.tippyTop {
+  height: 4px;
+  width: 75vw;
+}
+
+.verticleOne {
+  height: 30px;
+  width: 4px;
+}

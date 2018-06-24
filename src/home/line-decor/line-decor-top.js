@@ -4,7 +4,10 @@ import linesElite from '../../images/diff-cream.png'
 class LineDecorTop extends Component {
   render() {
     return (
-      <img className='lineDecorEverywhere' src={linesElite} alt='Decorative lines' aria-hidden='true' />
+      <div className='lineContainer'>
+        <div className='allLines tippyTop'/>
+        <div className='allLines verticleOne' />
+      </div>
     );
   }
 }
