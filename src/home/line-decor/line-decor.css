@@ -10,6 +10,9 @@
   top: 0;
   left: 0;
   margin: 30px;
+  width: 100%;
+  height: 100px;
+  align-items: center;
 }
 
 .allLines {
@@ -17,12 +20,43 @@
 
 }
 
-.tippyTop {
+.horizontalOne {
   height: 4px;
   width: 75vw;
 }
 
-.verticleOne {
-  height: 30px;
+.verticleRightOne {
+  height: 80px;
   width: 4px;
+  transform: translate(-25px, 20px);
+}
+
+.verticleRightTwo {
+  width: 4px;
+  height: 40px;
+  transform: translate(-40px, 20px);
+}
+
+.verticleRightThree {
+  width: 4px;
+  height: 40px;
+  transform: translate(-20px, 20px);
+}
+
+.verticleLeftOne {
+  height: 80px;
+  width: 4px;
+  transform: translate(-25px, 20px);
+}
+
+.verticleLeftTwo {
+  width: 4px;
+  height: 40px;
+  transform: translate(-40px, 20px);
+}
+
+.verticleLeftThree {
+  width: 4px;
+  height: 40px;
+  transform: translate(-20px, 20px);
 }
